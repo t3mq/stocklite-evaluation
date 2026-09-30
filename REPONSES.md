@@ -29,23 +29,23 @@ commande:
 Q08: 
 commande: 
 
-Q09: 
-commande: 
+Q09: src/utils.js
+commande: git log --follow --name-status --oneline depart -- src/outils.js
 
-Q10: 
-commande: 
+Q10: 15  Nathan Robin
+commande: git shortlog -sn depart
 
-Q11: 
-commande: 
+Q11: 2026-03-24
+commande: git log -1 --format=%cd --date=short v1.0.0
 
-Q12: 
-commande: 
+Q12: feat(cli): bannière de démarrage
+commande: git log --grep="This reverts" --oneline depart
 
-Q13: 
-commande: 
+Q13: de5637a
+commande: git log --merges --oneline --grep="fix/valeur-totale
 
-Q14: 
-commande: 
+Q14: 16
+commande: git diff --numstat v0.1.0 v1.0.0 -- src/stock.js
 
-Q15: 
-commande: 
+Q15: 6d6b920
+commande: git log -S "TODO: gérer les quantités négatives" --oneline depart
