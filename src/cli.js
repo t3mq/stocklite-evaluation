@@ -4,9 +4,6 @@ import { chargerExemple } from './outils.js';
 import { versCsv } from './export.js';
 
 const stock = chargerExemple(new Stock());
-
-console.log("Bienvenue dans StockLite !");
-
 const commande = process.argv[2] ?? 'lister';
 
 switch (commande) {
