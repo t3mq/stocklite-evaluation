@@ -13,6 +13,9 @@ switch (commande) {
   case 'export':
     console.log(versCsv(stock));
     break;
+  case 'alertes':
+    console.log(formaterTableau(stock.alertes()) || 'Aucune alerte');
+    break;
   default:
     console.error(`Commande inconnue : ${commande}`);
     process.exitCode = 1;

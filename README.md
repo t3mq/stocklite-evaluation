@@ -16,6 +16,7 @@ node src/cli.js lister
 - Affichage en console
 - Import depuis l'ancien format texte
 - Export CSV
+- Alertes triées par urgence
 
 ## Licence
 
